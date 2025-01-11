@@ -27,5 +27,8 @@
     <MASM Include="codegen.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="ping.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
