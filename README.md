@@ -1,0 +1,1 @@
+The project is to explore the trusting trust problem by creating a simple compiler that injects "malicious" code. Said malicious code sends a ping to a server, nothing crazy. The compiler detects if it's being used to compile a exe (injects ping) or compile a bootstrapped compiler (injects injection and ping).
