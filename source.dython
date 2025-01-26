@@ -1,0 +1,5 @@
+# Prompt the user for input
+user_input = input("Enter something: ")
+user_inputf = input("Enter something else: ")
+# Print the entered text to the console
+print(f"You entered: {user_input}")
