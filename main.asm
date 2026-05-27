@@ -14,8 +14,8 @@
     INVALID_HANDLE_VALUE equ -1        ; Error return value
 
     ; File paths
-    sourcePath db "C:/Users/mushbrain/source/repos/assembly/x64/Debug/source.dython", 0
-    outputPath db "C:/Users/mushbrain/source/repos/assembly/x64/Debug/output.asm", 0
+    sourcePath db "C:/Users/mushbrain/source/repos/main/x64/Debug/source.dython", 0
+    outputPath db "C:/Users/mushbrain/source/repos/main/x64/Debug/output.asm", 0
 
     ; Buffers
     buffer db 4096 dup(0)              ; Buffer for source file

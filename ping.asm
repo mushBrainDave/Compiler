@@ -30,7 +30,7 @@ EXTERN GetLastError : PROC
                 dq 0   ; OptionsData pointer
 
 .CODE
-main PROC
+ping PROC
     ; Allocate shadow space and preserve non-volatile registers
     push rbx
     push r12
@@ -121,6 +121,6 @@ error:
     mov ecx, 1            ; Return error code 1
     call ExitProcess
 
-main ENDP
+ping ENDP
 
 END
